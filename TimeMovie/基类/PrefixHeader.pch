@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  TimeMovie
+//
+//  Created by cdf on 15/8/21.
+//  Copyright (c) 2015年 cdf. All rights reserved.
+//
+
+#ifndef TimeMovie_PrefixHeader_pch
+#define TimeMovie_PrefixHeader_pch
+
+//宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// SDWebImage
+#import "UIImageView+WebCache.h"
+
+#import "UIViewExt.h"
+
+
+//读取json数据
+
+
+#import "MovieJSON1.h"
+
+#endif
